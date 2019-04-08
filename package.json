@@ -1,0 +1,25 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "FeedWhereNeed",
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-nativestorage": {},
+      "cordova-plugin-sqlite": {},
+      "cordova-plugin-secure-storage": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.1.4",
+    "cordova-browser": "^5.0.4",
+    "cordova-plugin-geolocation": "4.0.1",
+    "cordova-plugin-nativestorage": "2.3.2",
+    "cordova-plugin-secure-storage": "3.0.1",
+    "cordova-plugin-sqlite": "1.0.3"
+  }
+}
